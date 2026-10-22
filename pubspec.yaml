@@ -1,0 +1,28 @@
+name: nguyenduchau_gk_2380603535
+description: Ung dung cham cong nhan vien cho do an giua ky.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  crypto: ^3.0.7
+  geolocator: ^14.1.1
+  google_mlkit_face_detection: ^0.15.1
+  image_picker: ^1.2.3
+  intl: ^0.20.3
+  local_auth: ^3.0.2
+  shared_preferences: ^2.5.6
+  url_launcher: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
